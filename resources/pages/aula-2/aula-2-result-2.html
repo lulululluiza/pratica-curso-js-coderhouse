@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Atividade 2 da Aula 2</title>
+</head>
+<body>
+
+	<script>
+		alert("Há uma tag script por aqui O.O")	
+
+		let nome = prompt("Insira seu nome:")	
+		let sobrenome = prompt("Insira seu sobrenome:")	
+		let atual = parseInt(prompt("Insira o ano atual:"))	
+		let idade = parseInt(prompt("Insira a idade que vc completa neste ano:"))	
+
+		let nomeConcatenado = document.createElement("h1");
+		nomeConcatenado.innerText = nome + " " + sobrenome;
+		document.body.append(nomeConcatenado)
+
+
+		let idadeReal = document.createElement("h2");
+		idadeReal.innerText = atual - idade;
+		document.body.append(idadeReal)
+
+	</script>
+	
+</body>
+</html>
