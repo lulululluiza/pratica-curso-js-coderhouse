@@ -1,5 +1,10 @@
 let nome = prompt("Insira seu nome:")
-alert(`Bom dia/tarde/noite ${nome}!!`)
+if(nome == null) {
+	alert(`Faltou inserir um nome mas bom dia/tarde/noite pessoa anônima!!`)
+} else {
+	alert(`Bom dia/tarde/noite ${nome}!!`)
+}
+
 
 alert("( ﾉ ﾟｰﾟ)ﾉ Prove que você não é um robo! ＼(ﾟｰﾟ＼)")
 let result = parseInt(prompt("10+2?"))
