@@ -1,5 +1,5 @@
 let nome = prompt("Insira seu nome:")
-if(nome == null) {
+if(nome === "") {
 	alert(`Faltou inserir um nome mas bom dia/tarde/noite pessoa anônima!!`)
 } else {
 	alert(`Bom dia/tarde/noite ${nome}!!`)
