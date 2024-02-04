@@ -39,7 +39,7 @@ while (loop) {
     } else if (op == 3) {
         let valor = parseInt(prompt("Insira o valor do produto:"))
         let origem = parseInt(prompt("Insira a região de origem\n1 - Norte\n 2 - Nordeste\n 3 - Centro-Oeste\n 4 - Sudeste\n 5 - Sul"))
-        let destino = parseInt(prompt("Insira a região de destino\n1 1 - Norte\n 2 - Nordeste\n 3 - Centro-Oeste\n 4 - Sudeste\n 5 - Sul"))
+        let destino = parseInt(prompt("Insira a região de destino\n1 - Norte\n 2 - Nordeste\n 3 - Centro-Oeste\n 4 - Sudeste\n 5 - Sul"))
 
         alert(`Valor total com frete = ${frete(valor, origem, destino)}`)
 
